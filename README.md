@@ -70,9 +70,9 @@ matplotlib==3.4.3
 
 (1) We only provide an entry for the simulation experiment. If you need to correct errors in a specific scenario, you need to use the functions in main.py and Hedges.py separately.
 
-(2) **The seed number** for all our random experiments (generating sequences or generating errors) is 0. You can get more details by looking at the functions in **silico.py**.
+(2) **The random seeds** for all our random experiments (generating sequences or generating errors) is 0. You can get more details by looking at the functions in **silico.py**.
 
-(3) HEDGES code may contains more hyperparameters, but in our experimental setting, we mainly focus on **the correct penalty**. 
+(3) HEDGES code may contains more hyperparameters, but in our experimental setting, we mainly focus on **the correction penalty**. 
 
 (4) Our main reference for the experimental code of HEDGES Code:
 > https://github.com/whpress/hedges
